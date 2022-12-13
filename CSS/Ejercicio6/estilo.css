@@ -1,0 +1,17 @@
+div.div-1{
+    width: 50%;
+    border: 2px solid black;
+    font-size: 2em;
+}
+
+div.div-2{
+    width: 33%;
+    border: 2px solid red;
+    font-size: 1.20em;
+}
+
+div.div-3{
+    width: 25%;
+    border: 2px solid blue;
+    font-size: 0.80em;
+}
