@@ -1,0 +1,18 @@
+p{
+    color: blue;
+    border: 2px solid black;
+}
+
+p.greyBG{
+    background-color: grey;
+
+}
+
+p.yellowBG{
+    background-color: yellow;
+}
+
+p.yellowBigBG{
+    background-color: yellow;
+    font-size: 20px;
+}
