@@ -1,0 +1,32 @@
+header{
+    width: 100%;
+    background-color: aqua;
+    height: 100px;
+}
+
+section{
+    float: left;
+    width: 70%;
+    background-color: lightgreen;
+    height: 400px;
+}
+
+aside{
+    float: right;
+    background-color: purple;
+    width: 30%;
+    height: 400px;
+}
+
+footer{
+    width: 100%;
+    clear: both;
+    background-color: gray;
+    height: 100px;
+    padding: 20px;
+}
+
+#contenedor{
+    width: 80%;
+}
+
