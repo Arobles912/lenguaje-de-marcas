@@ -1,0 +1,9 @@
+ol{
+    list-style-type: lower-roman;
+    text-indent: 30px;
+}
+
+ul{
+    list-style-image:url('blanca.jpg');
+    list-style-position: inside;
+}
