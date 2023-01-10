@@ -1,0 +1,18 @@
+div.div-header{
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+div.div-left{
+    float: left;
+    width: 20%;
+    border: 2px solid black;
+}
+
+div.div-right{
+    float: right;
+    width: 79%;
+    border: 2px solid black;
+    overflow: scroll;
+}
