@@ -1,0 +1,48 @@
+header{
+    background-color: green;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+nav{
+    width: 20%;
+    background-color: darkgreen;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    padding: 10px;
+    background-color: olivedrab;
+    width: 77%;
+    float: right;
+}
+
+a{
+    padding: 5px;
+    font-style: italic;
+    text-decoration: none;
+    margin: 10px;
+    border: 2px solid black ;
+}
+
+a:link{
+    background-color: darkolivegreen;
+    color: white;   
+}
+
+a:visited{
+    color: rgb(209, 202, 202);
+}
+
+a:hover{
+    background-color: olive;
+    color: white;
+}
+
+a:active{
+    background-color: white;
+    color: black;
+}
+
