@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="estilo.css">
+    <title>Ejercicio16</title>
+</head>
+<body>
+    <div class="all-div">
+    <h1>Cuenta de Netflix</h1>
+    <h2>Rellene el formulario:</h2>
+    <form>
+        <div class="personal-div">
+        <fieldset class="personal-field">
+        <legend><b>Datos personales</b></legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre">
+            <br>
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido">
+            <br>
+            <label for="localidad">Localidad</label>
+            <input type="text" id="localidad" name="localidad">
+            <br>
+            <label for="codp">Código Postal</label>
+            <input type="text" id="codp" name="codp">
+            <br>
+            <label for="tlf">Teléfono</label>
+            <input type="text" id="tlf" name="tlf">
+            <br>
+        </fieldset>
+    </div>
+    <div class="suscription-div">
+        <fieldset>
+            <legend><b>Tipo de suscripción</b></legend>
+            <label for="basic">Básica</label>
+            <input type="radio" id="basic" name="basic">
+            <br>
+            <label for="standard">Estándar</label>
+            <input type="radio" id="standard" name="standard">
+            <br>
+            <label for="premium">Premium</label>
+            <input type="radio" id="premium" name="premium">
+            <br>
+        </fieldset>
+    </div>
+    <div class="notification-div">
+        <fieldset>
+            <legend><b>¿Desea recibir notificaciones sobre las novedades?</b></legend>
+            <label for="some">Deseo recibir las notificaciones de las novedades de la aplicación.</label>
+            <input type="checkbox" id="some" name="some">
+            <br>
+            <label for="all">Deseo recibir las novedades del catálogo del servicio.</label>
+            <input type="checkbox" id="all" name="all">
+            <br>
+        </fieldset>
+    </div>
+    <div class="submit-div">
+        <fieldset>
+            <legend><b>Envio</b></legend>
+            <div class="submit-button">
+            <input type="submit" value="Enviar">
+            </div>
+            <div class="terms-button">
+            <label for="conditions">He leido y acepto los terminos y condiciones de la apliación.</label>
+            <input type="checkbox" id="conditions" name="conditions">
+            </div>
+        </fieldset>
+    </div>
+    </form>
+</div>
+</body>
+</html>

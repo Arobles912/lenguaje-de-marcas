@@ -1,0 +1,70 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+div.all-div{
+    background-color: #2E2E2E;
+    width: 60%;
+    padding: 30px;
+    transform: translate(30%);
+}
+
+div.all-div:hover{
+    cursor:crosshair;
+}
+
+h1{
+    color: red;
+    text-align: center;
+    text-decoration: underline;  
+}
+
+h2{
+    color: red;
+}
+
+div.personal-div{
+    width: 50%;
+    float: left;
+}
+
+fieldset.personal-field{
+    padding: 23px;
+}
+
+div.suscription-div{
+    width: 50%;
+    float: right;
+}
+
+div.submit-button{
+    float: left;
+}
+
+div.terms-button{
+    margin-top: 5px;
+    float: right;
+}
+
+legend{
+    color: darkred;
+    background-color:darkgrey;
+}
+
+label{
+    color: white;
+}
+
+input{
+    margin: 10px;
+    border: 2px solid black;
+}
+
+input[type=submit]{
+    line-height: 25px;
+    font-weight: bolder;
+    color: red;
+    background-color: lightgrey
+}
+
+
