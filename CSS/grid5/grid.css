@@ -43,16 +43,6 @@ body {
   background-color: orange;
 }
 
-.main2{
-  grid-area: main2;
-  background-color: yellowgreen;
-}
-
-.main3{
-  grid-area: main3;
-  background-color: yellow;
-}
-
 .footer{
   grid-area: footer;
   background-color: plum;
@@ -62,29 +52,43 @@ body {
   display: grid;
   gap: 10px;
   grid-template-columns: auto;
-  grid-template-rows: 100px 300px 100px 100px 200px 100px 100px;
+  grid-template-rows: 100px 300px 100px 100px 100px;
   grid-template-areas:
   "header"
   "main"
-  "main2"
-  "main3"
   "navbar"
   "sidebar"
   "footer"
 }
 
-@media (min-width: 1024px){
+
+
+
+
+@media (min-width: 768px){
   .grid-container{
     display: grid;
     gap: 10px;
     grid-template-columns: 200px auto;
-    grid-template-rows: 100px 300px 100px 100px 100px 100px;
+    grid-template-rows: 100px 200px 100px 100px;
+    grid-template-areas:
+    "header header"
+    "main main" 
+    "navbar sidebar"
+    "footer footer"; 
+  }
+}
+
+@media (min-width: 992px){
+  .grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100px auto 100px 100px;
     grid-template-areas:
     "header header"
     "navbar main" 
-    "navbar main2"
-    "navbar main3"
-    "sidebar sidebar"
+    "sidebar main"
     "footer footer"; 
   }
 }
@@ -93,13 +97,13 @@ body {
   .grid-container{
     display: grid;
     gap: 10px;
-    grid-template-columns: auto 600px auto auto;
-    grid-template-rows: 100px 300px 100px 100px 100px 100px;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100px auto 100px 100px;
     grid-template-areas:
-    "header header header header"
-    "main main navbar sidebar" 
-    "main2 main3 navbar sidebar"
-    "footer footer footer footer"; 
+    "header header"
+    "navbar main" 
+    "sidebar main"
+    "footer footer"; 
   }
 }
 
