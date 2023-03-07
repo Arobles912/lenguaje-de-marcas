@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    padding: 20px;
+    color: white;
+    text-align: right;
+    background: black;
+    font-size: 2em;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article{
+    padding: 10px;
+    text-align: center;
+    width: 300px; 
+}
+
+#articulo-1{
+    background: #7ebdbb;
+}
+
+#articulo-2{
+    background: #b6ebb3;
+}
+
+#articulo-3{
+    background: #bacee3;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
