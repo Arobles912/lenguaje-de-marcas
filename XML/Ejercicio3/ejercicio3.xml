@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cd titulo="inserte titulo">
+<fecha dia="05" mes="10" año="2008"></fecha>
+<canciones>
+<cancion duracion="4:47" año="2008">
+<titulo>Give it 2 me</titulo>
+<compositores>
+<compositor>
+<nombre>Pharrell</nombre>
+<apellido>Williams</apellido>
+</compositor>
+</compositores>
+<productores>
+<productor>
+<nombre>Pharrell</nombre>
+<apellido>Williams</apellido>
+</productor>
+</productores>
+<sello>Warner Bros. Records</sello>
+<artista>Madonna</artista>
+</cancion>
+<cancion duracion="4:47" año="2008">
+<titulo>Give it 2 me</titulo>
+<compositores>
+<compositor>
+<nombre>Pharrell</nombre>
+<apellido>Williams</apellido>
+</compositor>
+</compositores>
+<productores>
+<productor>
+<nombre>Pharrell</nombre>
+<apellido>Williams</apellido>
+</productor>
+</productores>
+<sello>Warner Bros. Records</sello>
+<artista>Madonna</artista>
+</cancion>
+</canciones>
+</cd>

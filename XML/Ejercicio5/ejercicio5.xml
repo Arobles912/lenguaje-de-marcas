@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mensaje xmlns:correo="miCorreo">
+<remitente>
+<nombre>Antonio</nombre>
+<email>antonio47@gmail.com</email>
+</remitente>
+<destinatario>
+<nombre>Juan</nombre>
+<email>juan47@gmail.com</email>
+</destinatario>
+<asunto>mensaje prueba</asunto>
+<texto>
+<parrafo>Empecemos con un ejemplo para indicar la sintaxis y la estructura de un documento XML.
+Supongamos que queremos registrar en un documento XML los datos de una película, por ejemplo: Mar
+adentro dirigida por Alejandro Amenábar y protagonizada por Javier Bardem.</parrafo>
+<parrafo>Empecemos con un ejemplo para indicar la sintaxis y la estructura de un documento XML.
+Supongamos que queremos registrar en un documento XML los datos de una película, por ejemplo: Mar
+adentro dirigida por Alejandro Amenábar y protagonizada por Javier Bardem.</parrafo>
+<parrafo>Empecemos con un ejemplo para indicar la sintaxis y la estructura de un documento XML.
+Supongamos que queremos registrar en un documento XML los datos de una película, por ejemplo: Mar
+adentro dirigida por Alejandro Amenábar y protagonizada por Javier Bardem.</parrafo>
+</texto>
+</mensaje>

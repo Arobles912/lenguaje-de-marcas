@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo_xml.css"?>
+<playlist>
+<cancion>
+Ella no sigue modas
+<autor>Juan Magán</autor>
+<Año>2012</Año>
+<Duracion>4:07</Duracion>
+</cancion>
+<cancion>
+Mbappe
+<autor>Eladio Carrion</autor>
+<Año>2022</Año>
+<Duracion>3:40</Duracion>
+</cancion>
+<cancion>
+<autor>Bad Bunny</autor>
+<Año>2020</Año>
+<Duracion>3:40</Duracion>
+</cancion>
+<cancion>
+TQG
+<autores>
+<autor>Shakira</autor>
+<autor>Karol G</autor>
+</autores>
+<Año>2023</Año>
+<Duracion>2:30</Duracion>
+</cancion>
+</playlist>
+

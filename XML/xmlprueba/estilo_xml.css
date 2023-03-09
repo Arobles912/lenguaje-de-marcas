@@ -1,0 +1,25 @@
+cancion{
+    display: block;
+    font-size: 2em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+autor{
+    font-size: 0.7em;
+    display: block;
+    top: 15px;
+    position: relative;
+    color: blue;
+}
+
+autor:before{
+    content: "Autor: ";
+}
+
+año{
+    font-size: 0.7em;
+    display: block;
+    top: 15px;
+    position: relative;
+}
