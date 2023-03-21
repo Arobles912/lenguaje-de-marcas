@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="mensaje">
+  <xs:complexType>
+    <xs:sequence>
+    <xs:element name="remitente" type="complexRyD"/>
+    <xs:element name="destinatario" type="complexRyD"/>
+    <xs:element name="asunto" type="xs:string"/>
+    <xs:element name="texto" type="textoCompleto"/>
+    </xs:sequence>
+  </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="complexRyD">
+  <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+       <xs:element name="email" type="tipoEmail"/>
+  </xs:sequence> 
+  </xs:complexType>
+  
+    <xs:complexType name="textoCompleto">
+  <xs:sequence>
+        <xs:element name="parrafo" type="xs:string" maxOccurs="unbounded"/>
+  </xs:sequence> 
+  </xs:complexType>
+  
+<xs:simpleType name="tipoEmail">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="([A-z|\-|_|\d])+(\.([A-z|\-|_|\d)])+)*@([A-z|\-|_|\d])+(\.([A-z|\-|_|\d)])+)*"/>
+  </xs:restriction>
+</xs:simpleType>
+  
+
+
+</xs:schema>
