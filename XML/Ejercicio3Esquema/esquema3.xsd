@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="cancion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string" />
+        <xs:element name="compositores" type="PatronCompositor" />
+        <xs:element name="productores" type="PatronProductor" />
+        <xs:element name="sello" type="xs:string" />
+        <xs:element name="artista" type="xs:string" />
+      </xs:sequence>
+      <xs:attribute name="duracion" type="PatronDuracion"></xs:attribute>
+      <xs:attribute name="año" type="xs:integer"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  
+      <xs:complexType name="PatronCompositor">
+      <xs:sequence>
+       <xs:element name="compositor" type="PatronNombres"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+          <xs:complexType name="PatronProductor">
+      <xs:sequence>
+       <xs:element name="productor" type="PatronNombres"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+      <xs:complexType name="PatronNombres">
+      <xs:sequence>
+       <xs:element name="nombre" type="xs:string"/>
+       <xs:element name="apellido" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+  <xs:simpleType name="PatronDuracion">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="([\d{9}]+)*:([\d{9}]+)"/>
+  </xs:restriction>
+</xs:simpleType>
+  
+</xs:schema>

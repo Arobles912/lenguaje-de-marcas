@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="CatalogoPeliculas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Pelicula" type="PatronPelicula" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+    <xs:complexType name="PatronPelicula">
+      <xs:sequence>
+       <xs:element name="Titulo" type="xs:string"/>
+       <xs:element name="Duracion" type="xs:int"/>
+        <xs:element name="Genero" type="PatronGenero"/>
+        <xs:element name="Actores" type="PatronActores"/>
+        <xs:element name="Fecha" type="PatronFecha"/>
+        <xs:element name="Director" type="xs:string"/>
+        <xs:element name="Formato" type="PatronFormato" default="AVI" />
+      </xs:sequence>
+    </xs:complexType>
+    
+      <xs:complexType name="PatronActores">
+      <xs:choice maxOccurs="3">
+       <xs:element name="Actor" type="xs:string"/>
+       <xs:element name="Actriz" type="xs:string"/>
+      </xs:choice>
+    </xs:complexType>
+    
+  <xs:simpleType name="PatronFecha">
+  <xs:restriction base="xs:integer">
+    <xs:minInclusive value="1900"/>
+  </xs:restriction>
+</xs:simpleType>
+    
+  <xs:simpleType name="PatronGenero">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="(Drama|Comedia|Terror|Thriller|Sci-Fi and Fantasy)"/>
+  </xs:restriction>
+</xs:simpleType>
+
+  <xs:simpleType name="PatronFormato">
+  <xs:restriction base="xs:string">
+    <xs:pattern value="(AVI|MOV|MP4|FLV)"/>
+  </xs:restriction>
+</xs:simpleType>
+  
+  
+</xs:schema>
