@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Curriculum xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="ProyectoEsquema.xsd">
+
+<DatosPersonales>
+<Nombre>Paco</Nombre>
+<Apellidos>Ferrete Fajardo</Apellidos>
+<FechaNacimiento>28/02/1976</FechaNacimiento>
+<LugarNacimiento>PTS</LugarNacimiento>
+<Nacionalidades>
+<Nacionalidad>Española</Nacionalidad>
+</Nacionalidades>
+<DNI>123456789A</DNI>
+<Foto>*foto*</Foto>
+</DatosPersonales>
+
+<DatosContacto>
+<TipoVia>Calle</TipoVia>
+<NombreVia>Peligrosa</NombreVia>
+<Numero>13</Numero>
+<Portal></Portal>
+<Escalera></Escalera>
+<Piso></Piso>
+<Puerta></Puerta>
+<CodigoPostal>18673</CodigoPostal>
+<Pais>España</Pais>
+<Email>PacoFerrete46@gmail.com</Email>
+<Telefono>698201334</Telefono>
+<TelefonoFijo></TelefonoFijo>
+<PaginaWeb></PaginaWeb>
+<RedesSociales>
+<Red>
+<Nombre>Twitter</Nombre>
+<Usuario>PacoelMaquina67</Usuario>
+</Red>
+</RedesSociales>
+</DatosContacto>
+
+<FormacionAcademica>
+<Estudio>
+<Nombre>Desarrollo de aplicaciones multiplataforma</Nombre>
+<Lugar>IES Zaidin Vergeles</Lugar>
+<FechaInicio>15/09/2019</FechaInicio>
+<FechaFin>30/05/2020</FechaFin>
+</Estudio>
+</FormacionAcademica>
+
+<Idiomas>
+<Idioma>
+<Nombre>Ingles</Nombre>
+<ExpresionOral>Medio</ExpresionOral>
+<CompresionOral>Alto</CompresionOral>
+<ExpresionEscrita>Alto</ExpresionEscrita>
+<CompresionEscrita>Alto</CompresionEscrita>
+<Titulo>C</Titulo>
+<NivelTitulo>C1</NivelTitulo>
+</Idioma>
+</Idiomas>
+
+<ExperienciaLaboral>
+<Experiencia>
+<Lugar>Coviran Granada</Lugar>
+<Puesto>Cajero</Puesto>
+<FechaInicio>25/06/2001</FechaInicio>
+<FechaFin>18/07/2006</FechaFin>
+</Experiencia>
+</ExperienciaLaboral>
+
+<Competencias>
+<Competencia>
+<Nombre>Trabajo en equipo</Nombre>
+<Nivel>3</Nivel>
+</Competencia>
+</Competencias>
+
+<DatosAdicionales>
+<Aficiones>Arar terrenos en Caceres</Aficiones>
+<Disponibilidad>Si</Disponibilidad>
+<Vehiculo>Coche</Vehiculo>
+<Licencia>Carnet de coche</Licencia>
+<Permiso>B</Permiso>
+</DatosAdicionales>
+
+</Curriculum>
