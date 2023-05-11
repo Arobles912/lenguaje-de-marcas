@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="liga1.xsl" type="text/xsl"?>
+<liga>   
+  <equipo nombre="Barcelona FC">
+    <nombre>Barcelona FC</nombre>
+    <puntos>81</puntos>
+    <ganados>25</ganados>
+    <perdidos>3</perdidos>
+    <empatados>6</empatados>
+  </equipo>
+  <equipo nombre="Real Madrid">
+    <nombre>Real Madrid</nombre>
+    <puntos>88</puntos>
+    <ganados>28</ganados>
+    <perdidos>2</perdidos>
+    <empatados>4</empatados>
+  </equipo>
+  <equipo nombre="Granada FC">
+    <nombre>Granada FC</nombre>
+    <puntos>39</puntos>
+    <ganados>11</ganados>
+    <perdidos>17</perdidos>
+    <empatados>6</empatados>
+  </equipo>
+  <equipo nombre="UD Maracena">
+    <nombre>UD Maracena</nombre>
+    <puntos>45</puntos>
+    <ganados>12</ganados>
+    <perdidos>13</perdidos>
+    <empatados>9</empatados>
+  </equipo>
+</liga>

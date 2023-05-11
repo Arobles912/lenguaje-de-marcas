@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+  <xsl:template match="/">
+    <profesores>
+        <xsl:apply-templates/>
+    </profesores>
+  </xsl:template>
+  
+  <xsl:template match="asignatura">
+      <xsl:copy-of select="profesor"/>
+  </xsl:template>
+</xsl:stylesheet>
