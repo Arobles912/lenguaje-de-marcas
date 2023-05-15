@@ -11,8 +11,12 @@
           <tr>
           <th>Nombre</th>
           <th>Puntos</th>
+          <th>Ganados</th>
+          <th>Perdidos</th>
+          <th>Empatados</th>
+          <th>Total Empatados</th>
           </tr>
-          <xsl:for-each select="/liga/equipo">
+           <!-- <xsl:for-each select="/liga/equipo">
             <xsl:sort select="puntos" order="descending"/>
             <tr>
               <td><xsl:value-of select="@nombre"/></td>
@@ -25,10 +29,23 @@
               </xsl:otherwise>
               </xsl:choose>
             </tr>
-          </xsl:for-each>
+            </xsl:for-each> -->
+            <xsl:apply-templates/>
+            
         </table>
     </body>   
    </html>  
+  </xsl:template>
+  
+  <xsl:template match="equipo">
+    <tr>
+      <td><xsl:value-of select="@nombre"/></td>
+      <td><xsl:value-of select="puntos"/></td> 
+      <td><xsl:value-of select="ganados"/></td> 
+      <td><xsl:value-of select="perdidos"/></td> 
+      <td><xsl:value-of select="empatados"/></td> 
+      <td><xsl:value-of select="sum(/liga/equipo/empatados)"/></td>
+    </tr>
   </xsl:template>
 
 </xsl:stylesheet>

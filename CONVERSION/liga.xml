@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="liga1.xsl" type="text/xsl"?>
+<?xml-stylesheet href="ligaXML.xsl" type="text/xsl"?>
 <liga>   
   <equipo nombre="Barcelona FC">
     <nombre>Barcelona FC</nombre>
