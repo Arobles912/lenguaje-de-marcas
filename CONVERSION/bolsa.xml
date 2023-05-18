@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="bolsa.xsl" type="text/xsl"?>
+<?xml-stylesheet href="bolsa2.xsl" type="text/xsl"?>
 <Bolsa dia="13/4/2011" hora="11:34">
  <Empresa indice="ibex-35">
  <Nombre>Timofonica</Nombre>

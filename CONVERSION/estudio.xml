@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estudio.xsl" type="text/xsl"?>
+<pelicula idioma="español">
+ Mar adentro
+ <director>Alejandro Amenábar</director>
+ <guionista></guionista>
+ <actores>
+ <actor papel="protagonista">
+ <nombre>Javier</nombre>
+ <apellidos>Bardem</apellidos>
+ </actor>
+ <actor papel="secundario">
+ <nombre>Celso</nombre>
+ <apellidos>Bugallo</apellidos>
+ </actor>
+ </actores>
+ <vestuario>Sonia Grande</vestuario>
+</pelicula>
+
